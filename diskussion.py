@@ -63,9 +63,13 @@ x
 start = 1
 stop = 8
 
-y 6 horisontal 
+y 
 start = 1
 stop = 6
+
+Det här programmet skriver ut en "diagonal linje" av #-tecken på en matris av storlek 6x8. 
+Linjen börjar i det övre vänstra hörnet och går snett nedåt åt höger, med varje rad tryckt på en ny rad. 
+Varje # ersätter punkten (.) i den aktuella raden.
 """
 
 for y in range(1, 7):
@@ -77,20 +81,6 @@ for y in range(1, 7):
             s += "."
     print(s)
 print("**************")
-
-#4 Vad skrivs ut?
-#För att förstå koden kan du sätta ut brytpunkter och köra med debugging.
-# Det kan också underlätta att skriva samtidigt med papper och penna
-x = 0
-y = 1
-
-while y < 10:
-    if y % 2 == 0:
-        x -= y  # sätt brytpunkt här
-    else:
-        x += y * y  # sätt brytpunkt här
-    y += 1
-print(x, y)
 
 
 
