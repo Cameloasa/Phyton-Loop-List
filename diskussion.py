@@ -5,6 +5,12 @@ while index <= limit:
     print(index)
     index = index + 2
 print("**************")
+"""
+start = 5
+stop = 15
+step = 2
+output : 5, 7, 9, 11, 13, 15
+"""
 
 #2 Vad skrivs ut?
 for i in range(10):
@@ -13,6 +19,13 @@ for i in range(10):
     else:
         print(i)
 print("**************")
+"""
+start = 0
+stop = 9
+step = 1
+jump over 5
+output : 0,1,2,3,4,6,7,8,9
+"""
 
 #3 Vad blir summan? Skriv ner din bästa gissning innan du kör koden.
 counter = 0
@@ -20,6 +33,12 @@ for i in range(6):
     counter += i
 print(counter)
 print("**************")
+"""
+start = 0
+stop = 5
+step = 1
+output : 0+1+2+3+4+5 = 15
+"""
 
 #5 Vad skrivs ut?
 # Kan du göra om koden så att den skriver ut "time" i stället?
@@ -34,6 +53,25 @@ for y in range(1, 7):
     s = ""
     for x in range(1, 9):
         if x == y:
+            s += "#"
+        else:
+            s += "."
+    print(s)
+print("**************")
+"""
+x
+start = 1
+stop = 8
+
+y 6 horisontal 
+start = 1
+stop = 6
+"""
+
+for y in range(1, 7):
+    s = ""
+    for x in range(1, 9):
+        if x == y + 1:  # Flytta linjen ett steg åt höger
             s += "#"
         else:
             s += "."
