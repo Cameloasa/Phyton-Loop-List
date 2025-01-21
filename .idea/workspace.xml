@@ -4,26 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e93ecfd6-94e1-4004-add0-13de61c32f00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PhytonLooparListor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="e93ecfd6-94e1-4004-add0-13de61c32f00" name="Changes" comment="uppgift 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forandlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/forandlist.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Cameloasa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Cameloasa/Phyton-Loop-List.git&quot;,
+    &quot;accountId&quot;: &quot;f395ac06-bc81-4c7a-861f-1404dfdb75a5&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2rtOMaqcsF8AIv6wmVrIMZtVzfV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,6 +46,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.debug.executor": "Run",
+    "Python.diskussion.executor": "Debug",
+    "Python.forandlist.executor": "Run",
+    "Python.listor.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true"
@@ -77,6 +96,57 @@
       <option name="presentableId" value="Default" />
       <updated>1737374858181</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit, Diskussion">
+      <option name="closed" value="true" />
+      <created>1737387640395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737387640395</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Diskussion Flytta linjen ett steg åt höger">
+      <option name="closed" value="true" />
+      <created>1737388786893</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737388786893</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Diskussion Uppgift 4 debug">
+      <option name="closed" value="true" />
+      <created>1737393689471</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737393689471</updated>
+    </task>
+    <task id="LOCAL-00004" summary="uppgift 2">
+      <option name="closed" value="true" />
+      <created>1737393950179</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737393950179</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit, Diskussion" />
+    <MESSAGE value="Diskussion Flytta linjen ett steg åt höger" />
+    <MESSAGE value="Diskussion Uppgift 4 debug" />
+    <MESSAGE value="uppgift 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="uppgift 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/debug.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
