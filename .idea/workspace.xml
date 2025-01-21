@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e93ecfd6-94e1-4004-add0-13de61c32f00" name="Changes" comment="uppgift 2">
+    <list default="true" id="e93ecfd6-94e1-4004-add0-13de61c32f00" name="Changes" comment="uppgift 3 Listor">
+      <change afterPath="$PROJECT_DIR$/kvittouträknaren.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forandlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/forandlist.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,7 @@
     "Python.debug.executor": "Run",
     "Python.diskussion.executor": "Debug",
     "Python.forandlist.executor": "Run",
+    "Python.kvittouträknaren.executor": "Run",
     "Python.listor.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -128,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737393950179</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="uppgift 3 Listor">
+      <option name="closed" value="true" />
+      <created>1737475916790</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737475916790</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -136,17 +145,7 @@
     <MESSAGE value="Diskussion Flytta linjen ett steg åt höger" />
     <MESSAGE value="Diskussion Uppgift 4 debug" />
     <MESSAGE value="uppgift 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="uppgift 2" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/debug.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="uppgift 3 Listor" />
+    <option name="LAST_COMMIT_MESSAGE" value="uppgift 3 Listor" />
   </component>
 </project>
