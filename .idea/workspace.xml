@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e93ecfd6-94e1-4004-add0-13de61c32f00" name="Changes" comment="uppgift 3 Listor">
-      <change afterPath="$PROJECT_DIR$/kvittouträknaren.py" afterDir="false" />
+    <list default="true" id="e93ecfd6-94e1-4004-add0-13de61c32f00" name="Changes" comment="kvittouträknaren">
+      <change afterPath="$PROJECT_DIR$/figurermedloopar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,19 +44,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.debug.executor": "Run",
-    "Python.diskussion.executor": "Debug",
-    "Python.forandlist.executor": "Run",
-    "Python.kvittouträknaren.executor": "Run",
-    "Python.listor.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.debug.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diskussion.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.figurermedloopar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.forandlist.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kvittouträknaren.executor&quot;: &quot;Run&quot;,
+    &quot;Python.listor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PhytonLooparListor" />
@@ -137,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737475916790</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="kvittouträknaren">
+      <option name="closed" value="true" />
+      <created>1737480523098</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737480523098</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -146,6 +155,7 @@
     <MESSAGE value="Diskussion Uppgift 4 debug" />
     <MESSAGE value="uppgift 2" />
     <MESSAGE value="uppgift 3 Listor" />
-    <option name="LAST_COMMIT_MESSAGE" value="uppgift 3 Listor" />
+    <MESSAGE value="kvittouträknaren" />
+    <option name="LAST_COMMIT_MESSAGE" value="kvittouträknaren" />
   </component>
 </project>
