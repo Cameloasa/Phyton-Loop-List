@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e93ecfd6-94e1-4004-add0-13de61c32f00" name="Changes" comment="kvittouträknaren">
-      <change afterPath="$PROJECT_DIR$/figurermedloopar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e93ecfd6-94e1-4004-add0-13de61c32f00" name="Changes" comment="figurer med loopar">
+      <change beforePath="$PROJECT_DIR$/figurermedloopar.py" beforeDir="false" afterPath="$PROJECT_DIR$/figurermedloopar.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737480523098</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="figurer med loopar">
+      <option name="closed" value="true" />
+      <created>1737547001279</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737547001279</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,6 +163,7 @@
     <MESSAGE value="uppgift 2" />
     <MESSAGE value="uppgift 3 Listor" />
     <MESSAGE value="kvittouträknaren" />
-    <option name="LAST_COMMIT_MESSAGE" value="kvittouträknaren" />
+    <MESSAGE value="figurer med loopar" />
+    <option name="LAST_COMMIT_MESSAGE" value="figurer med loopar" />
   </component>
 </project>

@@ -1,24 +1,4 @@
-"""
 
-a-f
-
-g-j
-
-"""
-
-"""
-x
-start = 1
-stop = 8
-
-y 
-start = 1
-stop = 6
-
-Det här programmet skriver ut en "diagonal linje" av #-tecken på en matris av storlek 6x8. 
-Linjen börjar i det övre vänstra hörnet och går snett nedåt åt höger, med varje rad tryckt på en ny rad. 
-Varje # ersätter punkten (.) i den aktuella raden.
-"""
 #4 Figurer med loopar
 #Skriv in följande kod och modifiera den, så att den skriver ut figurerna a-j en i taget.
 # a
@@ -155,7 +135,6 @@ for y in range(1, 7):
             s += "."
     print(s)
 print("**************")
-
 
 # i
 for y in range(1, 7):  # Iterera över rader
