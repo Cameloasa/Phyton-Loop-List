@@ -1,20 +1,71 @@
-"""
-5 Gissa talet
-Gör ett spel som slumpar ett hemligt tal mellan 1 och 100. Sedan ska man försöka gissa det. Om man gissar för lågt eller för högt ska spelet tala om det. Efter att man har gissat rätt ska spelet skriva ut antalet gissningar.
 
-# Slumpa ett hemligt tal
-secret = random.randint(1, 100)
+# version 1
+import random
 
-Exempel:
-Välkommen till gissa talet! Jag tänker på ett tal mellan 1 och 100. Kan du gissa vilket det är?
-Gissa: 40
-Nej, det är för lågt!
-Gissa: 55
-Nej, det är för högt!
-Gissa: 51
-Det är rätt!! Du gjorde det på 3 gissningar.
+lowest_number = 1
+highest_number = 100
+secret = random.randint(lowest_number, highest_number)
+antal_gissningar = 0
 
-Version 2: skriv ut om man är nära ifall man gissar högst 5 ifrån det rätta svaret.
-"Nu börjar det brännas!"
+print(f"Välkommen till gissa talet!\nJag tänker på ett tal mellan {lowest_number} och {highest_number}.\nKan du gissa vilket det är?")
 
-"""
+while True:
+    gissning = input("Gissa: ")
+
+    try:
+
+        gissning = int(gissning)
+        antal_gissningar += 1
+
+        if gissning < lowest_number or gissning > highest_number:
+            print(f"Nej, det är ogiltig nummer!\nDu måste välja mellan {lowest_number} och {highest_number}!\nFörsök igen!")
+        elif gissning < secret:
+            print("Nej, det är för lågt!")
+        elif gissning > secret:
+            print("Nej, det är för högt!")
+        elif gissning == secret:
+            print(f"Det är rätt!! Du gjorde det på {antal_gissningar} gissningar.")
+            break
+    except ValueError:
+        print("Var snäll och skriv in ett giltigt heltal.")
+
+print("*******************************")
+
+# Version 2
+
+lowest_number = 1
+highest_number = 100
+secret = random.randint(lowest_number, highest_number)
+antal_gissningar = 0
+
+print(
+    f"Välkommen till gissa talet!\nJag tänker på ett tal mellan {lowest_number} och {highest_number}.\nKan du gissa vilket det är?")
+
+while True:
+    gissning = input("Gissa: ")
+
+    try:
+
+        gissning = int(gissning)
+        antal_gissningar += 1
+
+        if gissning < lowest_number or gissning > highest_number:
+            print(
+                f"Nej, det är ogiltig nummer!\nDu måste välja mellan {lowest_number} och {highest_number}!\nFörsök igen!")
+        elif abs(gissning - secret) <= 5 and gissning != secret:
+            if gissning < secret:
+                print("Nu börjar det brännas! Det är dock fortfarande för lågt!")
+            else:
+                print("Nu börjar det brännas! Det är dock fortfarande för högt!")
+        elif gissning < secret:
+            print("Nej, det är för lågt!")
+        elif gissning > secret:
+            print("Nej, det är för högt!")
+        elif gissning == secret:
+            print(f"Det är rätt!! Du gjorde det på {antal_gissningar} gissningar.")
+            break
+    except ValueError:
+        print("Var snäll och skriv in ett giltigt heltal.")
+
+
+

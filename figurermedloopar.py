@@ -140,7 +140,7 @@ print("**************")
 for y in range(1, 7):  # Iterera över rader
     s = ""
     for x in range(1, 9):  # Iterera över kolumner (1 till 8)
-        if (x - y) % 3 == 1:  # Första mönstret: #
+        if (x - y) % 3 == 1:  # Första mönstret:
             s += "#"
         elif (x - y) % 3 == 2:  # Andra mönstret: O
             s += "O"
