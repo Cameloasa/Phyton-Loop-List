@@ -30,9 +30,7 @@ print("Summan av talen 1 till 10 är: " + str(answer))
 
 1c Skriv om 1b så att den använder en while-loop.
 
-
 2 Räkna ut summan av alla elementen i listan: [1, -2, 3, -2, 4, -3] 
-
 
 3 Träna på att skapa och manipulera listor. Alla uppgifter ska lösas med funktionerna som står i presentationen.
 3a Skapa en lista med namnen på fyra filmer. Namnen ska vara strängar. Skriv ut hela listan 2med funktionen print.
@@ -43,8 +41,6 @@ print("Summan av talen 1 till 10 är: " + str(answer))
 3f Ta reda på hur lång listan är. (len)
 3g Vänd listan baklänges.
 3h Sortera listan stigande i bokstavsordning.
-
-Kom ihåg att göra code review!
 
 3 Kvittouträknaren
 Gör ett program som upprepade gånger ber användaren skriva in ett tal. När man skriver in strängen "quit" eller "avsluta" ska programmet ska det räkna ut summan av talen. Exempel:
@@ -78,8 +74,6 @@ Version 2:
 
 Lägg till egna testfall för dricksen.
 
-Kom ihåg att göra code review!
-
 4 Figurer med loopar
 Skriv in följande kod och modifiera den, så att den skriver ut figurerna a-j en i taget.
 for y in range(1, 7):
@@ -92,9 +86,7 @@ for y in range(1, 7):
     print(s)
 
 a-f
-
 g-j
-
 
 5 Gissa talet
 Gör ett spel som slumpar ett hemligt tal mellan 1 och 100. Sedan ska man försöka gissa det. Om man gissar för lågt eller för högt ska spelet tala om det. Efter att man har gissat rätt ska spelet skriva ut antalet gissningar.
@@ -113,7 +105,6 @@ Det är rätt!! Du gjorde det på 3 gissningar.
 
 Version 2: skriv ut om man är nära ifall man gissar högst 5 ifrån det rätta svaret.
 "Nu börjar det brännas!"
-
 
 6 Todo list (att göra-lista)
 Bygg ett program där användaren kan lägga till saker till en todo-lista.
@@ -137,17 +128,3 @@ Välj ett alternativ: 1
 Version 2: lägg till ett menyalternativ, "Markera som klar". När användaren väljer det, ska programmet fråga efter vilken grej man är färdig med. Den färdiga grejen ska tas bort från listan.
 
 Version 3: lägg över färdiga grejer i en ny lista. Användaren ska kunna välja vad man har bockat av tidigare, eller välja att lägga tillbaka grejen i todo-listan.
-
-
-Vad är code review?
-Alla i gruppen visar i tur ordning upp hur långt man har kommit med uppgiften. När man inte visar, har man som uppgift att ge konstruktiv feedback. Observera att man inte behöver vara färdig! Code review kan vara ett mycket bra stöd för att komma vidare.
-
-Den som visar upp sin kod:
-Kör programmet (oavsett om det blir fel eller inte)
-Visar upp kodfilerna
-
-De som ger feedback:
-Frågar om det är något man inte förstår
-Ger förslag på hur koden kan förbättras
-
-.
