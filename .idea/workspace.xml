@@ -41,23 +41,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.debug.executor": "Run",
-    "Python.diskussion.executor": "Debug",
-    "Python.figurermedloopar.executor": "Run",
-    "Python.forandlist.executor": "Run",
-    "Python.gissatalet.executor": "Run",
-    "Python.kvittouträknaren.executor": "Run",
-    "Python.listor.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.todolist.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/TestAutomatisering/ProjectsPyCharm/PhytonLooparListor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.debug.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diskussion.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.figurermedloopar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.forandlist.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gissatalet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kvittouträknaren.executor&quot;: &quot;Run&quot;,
+    &quot;Python.listor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.todolist.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/TestAutomatisering/ProjectsPyCharm/PhytonLooparListor&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PhytonLooparListor" />
