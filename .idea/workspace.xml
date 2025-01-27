@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e93ecfd6-94e1-4004-add0-13de61c32f00" name="Changes" comment="add a new file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/figurermedloopar.py" beforeDir="false" afterPath="$PROJECT_DIR$/figurermedloopar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gissatalet.py" beforeDir="false" afterPath="$PROJECT_DIR$/gissatalet.py" afterDir="false" />
-    </list>
+    <list default="true" id="e93ecfd6-94e1-4004-add0-13de61c32f00" name="Changes" comment="att göra listan" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,22 +41,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.debug.executor&quot;: &quot;Run&quot;,
-    &quot;Python.diskussion.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.figurermedloopar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.forandlist.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gissatalet.executor&quot;: &quot;Run&quot;,
-    &quot;Python.kvittouträknaren.executor&quot;: &quot;Run&quot;,
-    &quot;Python.listor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/TestAutomatisering/ProjectsPyCharm/pythonProjectBroCode&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.debug.executor": "Run",
+    "Python.diskussion.executor": "Debug",
+    "Python.figurermedloopar.executor": "Run",
+    "Python.forandlist.executor": "Run",
+    "Python.gissatalet.executor": "Run",
+    "Python.kvittouträknaren.executor": "Run",
+    "Python.listor.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.todolist.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/TestAutomatisering/ProjectsPyCharm/PhytonLooparListor"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PhytonLooparListor" />
@@ -173,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737547243656</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="att göra listan">
+      <option name="closed" value="true" />
+      <created>1737630472119</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737630472119</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,6 +190,7 @@
     <MESSAGE value="kvittouträknaren" />
     <MESSAGE value="figurer med loopar" />
     <MESSAGE value="add a new file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a new file" />
+    <MESSAGE value="att göra listan" />
+    <option name="LAST_COMMIT_MESSAGE" value="att göra listan" />
   </component>
 </project>
